@@ -1,5 +1,32 @@
 # Changelog
 
+## [4.0.0](https://github.com/terraform-google-modules/terraform-example-foundation/compare/v3.0.0...v4.0.0) (2023-12-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update terraform terraform-google-modules/network/google to v7 ([#956](https://github.com/terraform-google-modules/terraform-example-foundation/issues/956))
+
+### Features
+
+* add assured workload example ([#934](https://github.com/terraform-google-modules/terraform-example-foundation/issues/934)) ([be568ab](https://github.com/terraform-google-modules/terraform-example-foundation/commit/be568ab4267291591a81f679bd40acb78ba1ab64))
+* add instructions for deployment using GitHub Actions ([#955](https://github.com/terraform-google-modules/terraform-example-foundation/issues/955)) ([56450bd](https://github.com/terraform-google-modules/terraform-example-foundation/commit/56450bdd16ca178b4f1191aadc3690b45cbf8f3d))
+* CAI Monitoring Cloud Function ([#1015](https://github.com/terraform-google-modules/terraform-example-foundation/issues/1015)) ([141f067](https://github.com/terraform-google-modules/terraform-example-foundation/commit/141f067430c1a2f17d5698a9e9a88f989c19fbf9))
+* change budget alerts to alarm by forecast ([#1037](https://github.com/terraform-google-modules/terraform-example-foundation/issues/1037)) ([8a4c106](https://github.com/terraform-google-modules/terraform-example-foundation/commit/8a4c10627bf4d8ce39ea374ea8a6b1d2d7e314d9))
+* **deps:** Expand Terraform Google Provider to v5 (major) ([#1004](https://github.com/terraform-google-modules/terraform-example-foundation/issues/1004)) ([511f5cb](https://github.com/terraform-google-modules/terraform-example-foundation/commit/511f5cb4131e160660fa505c7f70b33a4d6f6aea))
+* Firewall policy rule with resource manager tag ([#1005](https://github.com/terraform-google-modules/terraform-example-foundation/issues/1005)) ([a92e31b](https://github.com/terraform-google-modules/terraform-example-foundation/commit/a92e31b3c6e48ca1c13570e96c88042ec65d868a))
+* update tf-wrapper.sh script to deal with generic folder hierarchy ([#992](https://github.com/terraform-google-modules/terraform-example-foundation/issues/992)) ([4d7e822](https://github.com/terraform-google-modules/terraform-example-foundation/commit/4d7e822b85d6c21c28389e82b3794b9e1554ebc6))
+
+
+### Bug Fixes
+
+* add cloud build bucket location ([#921](https://github.com/terraform-google-modules/terraform-example-foundation/issues/921)) ([cf3f117](https://github.com/terraform-google-modules/terraform-example-foundation/commit/cf3f1172c0b162acca07c3581dc9c745ca65d417))
+* add VPC Flow logs exceptions for REGIONAL_MANAGED_PROXY and INTERNAL_HTTPS_LOAD_BALANCER ([#976](https://github.com/terraform-google-modules/terraform-example-foundation/issues/976)) ([dd4ff91](https://github.com/terraform-google-modules/terraform-example-foundation/commit/dd4ff91b5dfb765160a57cb38d37a466e3c59595))
+* change priority of 'allow-google-apis' firewall rules to prevent collision with the deny all rule ([#972](https://github.com/terraform-google-modules/terraform-example-foundation/issues/972)) ([7205518](https://github.com/terraform-google-modules/terraform-example-foundation/commit/7205518e62b4c296ee6cf51f08cc1f49d69e20ea))
+* correct terraform required_version for optional ([#1003](https://github.com/terraform-google-modules/terraform-example-foundation/issues/1003)) ([5ef089c](https://github.com/terraform-google-modules/terraform-example-foundation/commit/5ef089c56717a98f74100a61d788513fe9c28c55))
+* **deps:** update terraform terraform-google-modules/network/google to v7 ([#956](https://github.com/terraform-google-modules/terraform-example-foundation/issues/956)) ([2f54ad6](https://github.com/terraform-google-modules/terraform-example-foundation/commit/2f54ad621404fb2a38df0006f4692fdb0a22ee12))
+* Fix missing Terraform module attribution ([#973](https://github.com/terraform-google-modules/terraform-example-foundation/issues/973)) ([d1d2973](https://github.com/terraform-google-modules/terraform-example-foundation/commit/d1d29736987ea31ee74cc20557c46ff3085baf02))
+
 ## [3.0.0](https://github.com/terraform-google-modules/terraform-example-foundation/compare/v2.3.1...v3.0.0) (2022-12-16)
 
 
